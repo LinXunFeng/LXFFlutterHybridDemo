@@ -1,0 +1,28 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_module_lxf (0.0.1):
+    - Flutter
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `../flutter_module_lxf/.ios/Flutter/engine`)
+  - flutter_module_lxf (from `../flutter_module_lxf/.ios/Flutter`)
+  - FlutterPluginRegistrant (from `../flutter_module_lxf/.ios/Flutter/FlutterPluginRegistrant`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "../flutter_module_lxf/.ios/Flutter/engine"
+  flutter_module_lxf:
+    :path: "../flutter_module_lxf/.ios/Flutter"
+  FlutterPluginRegistrant:
+    :path: "../flutter_module_lxf/.ios/Flutter/FlutterPluginRegistrant"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_module_lxf: d875bc309967c7fe1e27a90208238413639b70e3
+  FlutterPluginRegistrant: d59dd07dd90e9c6430996073575a5bd1ea19677e
+
+PODFILE CHECKSUM: 1376c3c3a7462bf436e2ed5c87977e1fab5844c3
+
+COCOAPODS: 1.9.1

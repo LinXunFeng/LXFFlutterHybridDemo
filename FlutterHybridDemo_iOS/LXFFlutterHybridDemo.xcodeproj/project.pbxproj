@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		806F2A286A607DDAFBE20DE2 /* Pods_LXFFlutterHybridDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02693DBAD4DC44CC7BB94984 /* Pods_LXFFlutterHybridDemo.framework */; };
+		FD17980E24B992480023A8D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD17980D24B992480023A8D6 /* AppDelegate.swift */; };
+		FD17981024B992490023A8D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD17980F24B992490023A8D6 /* SceneDelegate.swift */; };
+		FD17981224B992490023A8D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD17981124B992490023A8D6 /* ViewController.swift */; };
+		FD17981524B992490023A8D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD17981324B992490023A8D6 /* Main.storyboard */; };
+		FD17981724B9924A0023A8D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD17981624B9924A0023A8D6 /* Assets.xcassets */; };
+		FD17981A24B9924B0023A8D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD17981824B9924B0023A8D6 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02693DBAD4DC44CC7BB94984 /* Pods_LXFFlutterHybridDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXFFlutterHybridDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EF8A4B0571955CCD82C6CCD /* Pods-LXFFlutterHybridDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXFFlutterHybridDemo.release.xcconfig"; path = "Target Support Files/Pods-LXFFlutterHybridDemo/Pods-LXFFlutterHybridDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AE47BB032016A3D406794175 /* Pods-LXFFlutterHybridDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXFFlutterHybridDemo.debug.xcconfig"; path = "Target Support Files/Pods-LXFFlutterHybridDemo/Pods-LXFFlutterHybridDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FD17980A24B992480023A8D6 /* LXFFlutterHybridDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXFFlutterHybridDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD17980D24B992480023A8D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD17980F24B992490023A8D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FD17981124B992490023A8D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD17981424B992490023A8D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD17981624B9924A0023A8D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD17981924B9924B0023A8D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD17981B24B9924B0023A8D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD17980724B992480023A8D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806F2A286A607DDAFBE20DE2 /* Pods_LXFFlutterHybridDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56FC9E93C308569DCDE58411 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02693DBAD4DC44CC7BB94984 /* Pods_LXFFlutterHybridDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7487D8AC9DFF94B807D3ACD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE47BB032016A3D406794175 /* Pods-LXFFlutterHybridDemo.debug.xcconfig */,
+				3EF8A4B0571955CCD82C6CCD /* Pods-LXFFlutterHybridDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FD17980124B992480023A8D6 = {
+			isa = PBXGroup;
+			children = (
+				FD17980C24B992480023A8D6 /* LXFFlutterHybridDemo */,
+				FD17980B24B992480023A8D6 /* Products */,
+				7487D8AC9DFF94B807D3ACD3 /* Pods */,
+				56FC9E93C308569DCDE58411 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FD17980B24B992480023A8D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD17980A24B992480023A8D6 /* LXFFlutterHybridDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD17980C24B992480023A8D6 /* LXFFlutterHybridDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FD17980D24B992480023A8D6 /* AppDelegate.swift */,
+				FD17980F24B992490023A8D6 /* SceneDelegate.swift */,
+				FD17981124B992490023A8D6 /* ViewController.swift */,
+				FD17981324B992490023A8D6 /* Main.storyboard */,
+				FD17981624B9924A0023A8D6 /* Assets.xcassets */,
+				FD17981824B9924B0023A8D6 /* LaunchScreen.storyboard */,
+				FD17981B24B9924B0023A8D6 /* Info.plist */,
+			);
+			path = LXFFlutterHybridDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD17980924B992480023A8D6 /* LXFFlutterHybridDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD17981E24B9924B0023A8D6 /* Build configuration list for PBXNativeTarget "LXFFlutterHybridDemo" */;
+			buildPhases = (
+				BEF46105046C4639437042F1 /* [CP] Check Pods Manifest.lock */,
+				8C5C2E8E01EF6998F40C8735 /* [CP-User] Run Flutter Build flutter_module_lxf Script */,
+				FD17980624B992480023A8D6 /* Sources */,
+				FD17980724B992480023A8D6 /* Frameworks */,
+				FD17980824B992480023A8D6 /* Resources */,
+				80F67EACD589E1EF37704C8A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXFFlutterHybridDemo;
+			productName = LXFFlutterHybridDemo;
+			productReference = FD17980A24B992480023A8D6 /* LXFFlutterHybridDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD17980224B992480023A8D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = LXF;
+				TargetAttributes = {
+					FD17980924B992480023A8D6 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = FD17980524B992480023A8D6 /* Build configuration list for PBXProject "LXFFlutterHybridDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD17980124B992480023A8D6;
+			productRefGroup = FD17980B24B992480023A8D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD17980924B992480023A8D6 /* LXFFlutterHybridDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD17980824B992480023A8D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD17981A24B9924B0023A8D6 /* LaunchScreen.storyboard in Resources */,
+				FD17981724B9924A0023A8D6 /* Assets.xcassets in Resources */,
+				FD17981524B992490023A8D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		80F67EACD589E1EF37704C8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LXFFlutterHybridDemo/Pods-LXFFlutterHybridDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LXFFlutterHybridDemo/Pods-LXFFlutterHybridDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LXFFlutterHybridDemo/Pods-LXFFlutterHybridDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C5C2E8E01EF6998F40C8735 /* [CP-User] Run Flutter Build flutter_module_lxf Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../flutter_module_lxf/.metadata",
+				"${SRCROOT}/../flutter_module_lxf/.ios/Flutter/App.framework/App",
+				"${SRCROOT}/../flutter_module_lxf/.ios/Flutter/engine/Flutter.framework/Flutter",
+				"${SRCROOT}/../flutter_module_lxf/.ios/Flutter/flutter_export_environment.sh",
+			);
+			name = "[CP-User] Run Flutter Build flutter_module_lxf Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../flutter_module_lxf/.ios/Flutter/flutter_export_environment.sh\"\n\"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+		BEF46105046C4639437042F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LXFFlutterHybridDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD17980624B992480023A8D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD17981224B992490023A8D6 /* ViewController.swift in Sources */,
+				FD17980E24B992480023A8D6 /* AppDelegate.swift in Sources */,
+				FD17981024B992490023A8D6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD17981324B992490023A8D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD17981424B992490023A8D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD17981824B9924B0023A8D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD17981924B9924B0023A8D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD17981C24B9924B0023A8D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD17981D24B9924B0023A8D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD17981F24B9924B0023A8D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE47BB032016A3D406794175 /* Pods-LXFFlutterHybridDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXFFlutterHybridDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxf.LXFFlutterHybridDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD17982024B9924B0023A8D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EF8A4B0571955CCD82C6CCD /* Pods-LXFFlutterHybridDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LXFFlutterHybridDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxf.LXFFlutterHybridDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD17980524B992480023A8D6 /* Build configuration list for PBXProject "LXFFlutterHybridDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD17981C24B9924B0023A8D6 /* Debug */,
+				FD17981D24B9924B0023A8D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD17981E24B9924B0023A8D6 /* Build configuration list for PBXNativeTarget "LXFFlutterHybridDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD17981F24B9924B0023A8D6 /* Debug */,
+				FD17982024B9924B0023A8D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD17980224B992480023A8D6 /* Project object */;
+}

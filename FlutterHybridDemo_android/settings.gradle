@@ -1,0 +1,9 @@
+rootProject.name='FlutterHybridDemo_android'
+include ':app'
+setBinding(new Binding([gradle: this]))                                // new
+evaluate(new File(                                                     // new
+  settingsDir.parentFile,                                              // new
+  'flutter_module_lxf/.android/include_flutter.groovy'                 // new
+))
+include ':flutter_module_lxf'
+project(':flutter_module_lxf').projectDir = new File('../flutter_module_lxf')
