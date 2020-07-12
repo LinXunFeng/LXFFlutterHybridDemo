@@ -17,6 +17,8 @@ class AppDelegate: FlutterAppDelegate {
 
     override func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
+        // 不生效
+//        flutterEngine.navigationChannel.invokeMethod("setInitialRoute", arguments: "/other")
         // 启动 Flutter引擎
         flutterEngine.run()
         

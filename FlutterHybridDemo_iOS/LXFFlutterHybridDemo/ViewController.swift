@@ -14,9 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
         // 创建FlutterViewController
-        // 这里的 engine 可以传 nil，Flutter会帮我们自动创建一个引擎，但是性能较差
 //        let flutterVc = FlutterViewController(engine: fetchFlutterEngine(), nibName: nil, bundle: nil)
         
         // 可以将flutter视图做为当前控制器视图的一部分，但不推荐这么做
@@ -32,8 +30,15 @@ class ViewController: UIViewController {
     }
     
     @objc func showFlutterVc() {
-        let flutterVc = FlutterViewController(engine: fetchFlutterEngine(), nibName: nil, bundle: nil)
+        let flutterEngine = fetchFlutterEngine()
+        let flutterVc = FlutterViewController(engine: flutterEngine, nibName: nil, bundle: nil)
+        
+        // 修改初始路由为 /other
+//        let flutterVc = FlutterViewController(project: FlutterDartProject(), nibName: nil, bundle: nil)
+//        flutterVc.setInitialRoute("/other")
+        
         self.present(flutterVc, animated: true, completion: nil)
+        
     }
     
     func fetchFlutterEngine() -> FlutterEngine {
